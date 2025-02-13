@@ -10,17 +10,17 @@ If you have code using Telethon before its 1.0 version, you must read Compatibil
 
 ## What is this for?
 
-Telegram channels have both the ability to delete after X amount of time, some chats are heavily monitored. This tool allows a live download of any chat you are already in. (More on that later). Videos and Photos are also downloaded.
+Telegram channels have both the ability to delete after X amount of time, some chats are heavily monitored. This tool allows a live download of any chat you are already in (more on that later). Videos and Photos are also downloaded.
 
 The output is a HTML file which shows the messages in a Telegram format.
 
-## Supported so far:
+### Supported so far:
 
-[x] Chat messages
-[x] Reply messages
-[x] Video messages
-[x] Photo messages
-[] Stickers (downloads but not displayed)
+- [x] Chat messages
+- [x] Reply messages
+- [x] Video messages
+- [x] Photo messages
+- [] Stickers (downloads but not displayed)
 
 # How to use
 
