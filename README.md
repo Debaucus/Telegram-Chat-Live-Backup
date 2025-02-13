@@ -4,9 +4,7 @@ Backup Telegram chats live as messages come in. Huge credit goes to [Telethon](h
 
 Note from Telethon Github.
 
-Important
-
-If you have code using Telethon before its 1.0 version, you must read Compatibility and Convenience to learn how to migrate. As with any third-party library for Telegram, be careful not to break [Telegram's ToS](https://core.telegram.org/api/terms) or [Telegram can ban the account.](https://docs.telethon.dev/en/stable/quick-references/faq.html#my-account-was-deleted-limited-when-using-the-library)
+As with any third-party library for Telegram, be careful not to break [Telegram's ToS](https://core.telegram.org/api/terms) or [Telegram can ban the account.](https://docs.telethon.dev/en/stable/quick-references/faq.html#my-account-was-deleted-limited-when-using-the-library)
 
 ## What is this for?
 
@@ -20,7 +18,9 @@ The output is a HTML file which shows the messages in a Telegram format.
 - [x] Reply messages
 - [x] Video messages
 - [x] Photo messages
-- [] Stickers (downloads but not displayed)
+- [ ] Stickers (downloads but not displayed)
+- [ ] JSON backup
+- [ ] Dated logs (split exports)
 
 # How to use
 
@@ -40,8 +40,9 @@ The output is a HTML file which shows the messages in a Telegram format.
 
 `TARGET_CHANNELS` is a list of channels/groups, that you are in, which the are monitored for messages. Being in the chat _should_ reduce ban risk as you are in the chat reading messages much like any other client.
 
-````API_ID=0
+```
+API_ID=0
 API_HASH=""
 SESSION_NAME="" # Any name.
-TARGET_CHANNELS="example_1,example_2" # Channels/Groups you wish to backup.```
-````
+TARGET_CHANNELS="example_1,example_2" # Channels/Groups you wish to backup.
+```
